@@ -1,0 +1,647 @@
+html,
+body {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+}
+.not-mark {
+    list-style: none;
+    padding: 0;
+}
+.not-underline {
+    text-decoration: none;
+    color: black;
+}
+img {
+    width: 100%;
+}
+.header {
+    position: fixed;
+    z-index: 50;
+    background: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1%;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.logo-site {
+    width: 15.6rem;
+    height: 8.1rem;
+}
+.navigation-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item-link {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 175%;
+}
+.menu-burger {
+    display: none;
+}
+.nav-item-link-active {
+    color: #FA4A0C;
+
+}
+
+.nav-item {
+    margin-right: 5rem;
+    text-align: center;
+}
+.nav-item:last-child {
+    margin-right: 5rem;
+}
+.main-header-site {
+    display: none;
+}
+.info-about-program {
+    height: 50rem;
+    text-align: center;
+    position: relative;
+    background-image: url(../img/bg/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color:aliceblue;
+    padding: 7.3rem 25.1rem 14.6rem 25.1rem;
+}
+.info-program-button:hover {
+    background: #990808;
+    transition: .3s;
+}
+.info-text {
+    margin-bottom: 5.4rem;
+}
+
+.program-info-header {
+    font-family: 'Poppins';
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 138%;
+    color: #FFFFFF;
+}
+.use-text {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.download-text {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 158%;
+    color: #F6F6F6;
+
+}
+.info-program-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.info-program-button {
+    position: relative;
+    z-index: 1;
+}
+.playstore {
+    padding: 1.6rem 5rem;
+    background: #FA4A0C;
+    color: #FFFFFF;
+    border-radius: 3rem;
+    border: none;
+    margin-right: 3.4rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 150%;
+}
+.app-store {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 1.6rem 5rem;
+    border-radius: 3rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 150%;
+}
+
+.img-position {
+    position: absolute;
+    top: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    transform: translate(-50%, 0);
+}
+
+.wrap-work-program {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 60.3rem;
+}
+.work-program-hr {
+    width: 88.4rem;
+    color: #E4E4E4;
+}
+.work-program-main-header {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 4.4rem;
+    line-height: 81%;
+    text-align: center;
+}
+.info-create-account {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.info-create-account-img , .buy-meals-img, .deliver-img{
+    display: inline;
+}
+.create-account-img {
+    width: 100%;
+    margin: 0;
+}
+.color-span-text {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #FA4A0C;
+}
+.work-program-header {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 142%;
+    text-align: left;
+    margin: 0;
+    margin-top: 1.7rem;
+    margin-bottom: 2.7rem;
+}
+.work-program-paragraph {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 158%;
+    color: #737373;
+}
+.info-buy-meals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.info-buy-meals-item {
+    order: 0;
+}
+.deliver {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.info-install-main-header {
+    display: none;
+}
+.info-install-program {
+    padding: 20rem 25rem;
+    text-align: center;
+    background-image: url(../img/bg/bg-2.jpg);
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.info-install-header {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 142%;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.info-install-paragraph {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 158%;
+    margin: 0;
+    margin-bottom: 6rem;
+}
+.buttons-install {
+    display: flex;
+    justify-content: center;
+}
+.button-install-1 {
+    padding: 1.8rem 3.1rem;
+    background: #FA4A0C;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 175%;
+    border-radius: 1rem;
+    align-self: center;
+}
+.button-install-2 {
+    padding: 1.8rem 3.5rem;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 175%;
+    border-radius: 1rem;
+    margin-left: 1.6rem;
+    align-self: center;
+}
+.footer-navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 18rem);
+    column-gap: 30%;
+    padding: 5rem 5rem;
+
+}
+.social-networks-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 100%;
+}
+.social-networks-item {
+    text-align: auto;
+}
+.logo-social-networks {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.footer-img {
+    width: auto;
+}
+.main-logo-site {
+    text-align: auto;
+}
+.footer-nav-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-text-paragraph {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 150%;
+}
+@media (max-width: 1800px) {
+    body {
+        max-width: 100%;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .work-program-hr {
+        width: 60%;
+    }
+    .use-text {
+        font-size: 4rem;
+    }
+    .program-info-header {
+        font-size: 5.5rem
+    }
+    .info-about-program {
+        padding: 15% 10%;
+    }
+    .info-buy-meals-item {
+        text-align: right;
+    }
+    .work-program-nd-header {
+        text-align: right;
+    }
+    .footer-navigation {
+        grid-template-columns: repeat(3, 23.5rem);
+        column-gap: 20%;
+    }
+    .social-networks-item {
+        margin-right: 3rem;
+    }
+    .nav-text-paragraph {
+        font-size: 2rem;
+    }
+    .footer-img {
+        width: 5.5rem;
+    }
+    .footer-img-logo {
+        width: auto;
+    }
+}
+@media (max-width: 1200px) {
+    body {
+        max-width: 100%;
+        max-width: 1200px;
+    }
+    .container {
+        min-width: 100%;
+        max-width: 1200px;
+    }
+    .work-program-hr {
+        width: 60%;
+    }
+    .program-info-header {
+        font-size: 4.5rem;
+    }
+    
+    .info-about-program {
+        padding: 15% 10%;
+    }
+    .footer-navigation {
+        grid-template-columns: repeat(3, 19rem);
+        column-gap: 20%;
+    }
+}
+
+
+@media (max-width: 993px) {
+    body {
+        min-width: 100%;
+        max-width: 993px;
+    }
+    .container {
+        min-width: 100%;
+        max-width: 993px;
+    }
+    .img-position {
+        width: 80%;
+    }
+    .info-buy-meals, .deliver, .info-create-account {
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .info-buy-meals-item {
+        text-align: center;
+    }
+    .work-program-nd-header {
+        text-align: center;
+    }
+    .work-program-hr {
+        width: 60%;
+    }
+    .program-info-header {
+        font-size: 4.5rem
+    }
+    .info-about-program {
+        padding: 15% 10%;
+    }
+    .work-program-header {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .info-create-account-img, .deliver-img, .buy-meals-img {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .info-buy-meals-item {
+        order: 5;
+    }
+    .info-install-program {
+        padding: 15rem 10rem;
+    }
+    .create-account-img {
+        width: 85%;
+        margin-left: auto;
+    }
+    .footer-navigation {
+        column-gap: 11.5%;
+    }
+    .footer-img {
+        width: 4rem;
+    }
+    .footer-img-logo {
+        width: auto;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        min-width: 100%;
+        max-width: 758px;
+    }
+    .container {
+        min-width: 100%;
+        max-width: 768px;
+    }
+    .img-position {
+        transform: translate(-60%, 0);
+    }
+    .nav-item-link {
+        font-size: 2rem;
+    }
+    .nav-item {
+        margin-right: 2rem;
+    }
+    .playstore {
+        margin-right: 1rem;
+    }
+    .info-about-program {
+        height: 65rem;
+    }
+    .info-install-program {
+        padding: 15rem 10rem;
+    }
+    .footer-navigation {
+        grid-template-columns: 1fr;
+    }
+    .footer-nav-text {
+        text-align: center;
+    }
+    .logo-social-networks {
+        margin: 10% 0;
+    }
+    .main-logo-site {
+        text-align: center;
+    }
+    .social-networks-list {
+        width: 50%;
+    }
+    .social-networks-item {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .img-position {
+        width: 100%;
+        top: 88%;
+        transform: translate(-60%, 0);
+    }
+    body.active {
+		overflow: hidden;
+	}
+    .header:before  {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #FFFFFF;
+		z-index: 3;
+	}
+    .wrapper-logo {
+        position: relative;
+        z-index: 3;
+    }
+    .menu-burger {
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		margin-right: 10px;
+		margin-left: auto;
+		z-index: 3;
+	}
+    .menu-burger-before,
+	.menu-burger-after {
+		background: black;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+        transition: .3s;
+	}
+    .menu-burger-before {
+		top: 0;
+	}
+	.menu-burger-after {
+		bottom: 0;
+	}
+    .menu-burger-span {
+		position: absolute;
+		background: black;
+		margin-top: 9px;
+		width: 100%;
+		height: 2px;
+		left: 0;
+        transition: .3s;
+		
+	}
+    .menu-burger-span.active {
+        display: none;
+        transition: .3s;
+    }
+    .menu-burger-before.active {
+        transform: rotateZ(45deg);
+        transition: .3s;
+    }
+    .menu-burger-after.active {
+        transform: rotateZ(-45deg);
+        bottom: auto;
+        transition: .3s;
+    }
+    .navigation-list.active {
+		display: block;
+		margin-top: 50%;
+	}
+    .navigation.active {
+        display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background: #fff;
+	}
+    .navigation {
+        display: none;
+    }
+    .menu-list {
+		display: none;
+	}
+    
+    .nav-item {
+        margin-right: 0;
+    }
+    .nav-item:last-child {
+        margin: 0;
+    }
+    .nav-item-link {
+        color: black;
+        font-size: 4rem;
+    }
+    .info-about-program {
+        height: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .info-program::after {
+        left: auto;
+    }
+    .playstore {
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    .info-install-program {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 15rem 1rem;
+    }
+}
+@media (max-width: 320px) {
+    .use-text {
+        font-size: 2rem;
+    }
+    .program-info-header {
+        font-size: 3rem;
+    }
+    .wrap-work-program {
+        padding-top: 30rem;
+    }
+    .download-text {
+        font-size: 2rem;
+    }
+    .playstore {
+        font-size: 1.5rem;
+    }
+    .app-store {
+        padding: 1.6rem 5rem;
+        font-size: 1.5rem;
+    }
+    .info-install-header {
+        font-size: 2.5rem;
+    }
+    .info-install-paragraph {
+        font-size: 2rem;
+    }
+    .work-program-main-header {
+        font-size: 3.4rem;
+    }
+    .color-span-text {
+        font-size: 1.6rem;
+    }
+    .work-program-header {
+        font-size: 2.5rem;
+    }
+    .work-program-paragraph {
+        font-size: 1.4rem;
+    }
+    .button-install-2 {
+        padding: 1rem 0.5rem;
+    }
+    .footer-navigation {
+        padding: 0;
+    }
+    .nav-text-paragraph {
+        font-size: 1.5rem;
+    }
+}
